@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    background-image: url("https://pics.freeartbackgrounds.com/midle/Beach_Background-1342.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.mid-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 160px;
+    padding: 20px;
+}
+
+.card-container{
+    margin-top: 150px;
+    background-color: white;
+    border-radius: 7px;
+    margin-right: 15px;
+    box-shadow: 5px 5px 10px rgb(119, 98, 98);
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.card-container img{
+    height: 200px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.amritsar{
+    padding: 15px;
+}
+
+.taj-mahal{
+    padding: 15px;
+}
+
+.kedarnath{
+    padding: 15px;
+}
+
+.text{
+    padding: 10px;
+    font-size: 25px;
+    color: black;
+    font-family: "Roboto";
+
+}
+
+.amritsar-container{
+    background-image: url("https://www.pngmagic.com/product_images/solid-light-blue-background.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.headline{
+    font-size: 35px;
+    margin-left: 200px;
+    padding: 30px;
+    font-family: "Roboto";
+    color: rgb(48, 51, 45);
+}
+
+.page-text{
+    font-size: 17px;
+    font-family: "Roboto";
+    width: 800px;
+    margin-left: 210px;
+    padding: 20px;
+    text-align: left;
+    background-color: rgb(242, 248, 248);
+    border-radius: 10px;
+    color: rgb(2, 0, 0);
+}
